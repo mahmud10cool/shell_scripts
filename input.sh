@@ -9,7 +9,8 @@ read -p "Enter your name: " NAME
 echo "Oh my god your name is $NAME" 
 
 # Let us first give the user a prompt
-echo "\nPlease enter your name and age: "
+echo " "
+echo "Please enter your name and age: "
 
 read FNAME AGE
 
