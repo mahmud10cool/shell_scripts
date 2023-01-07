@@ -10,9 +10,11 @@ echo "Oh my god your name is $NAME"
 
 # Let us first give the user a prompt
 echo " "
-echo "Please enter your name and age: "
+echo "Please enter your class and age: "
 
-read FNAME AGE
+read CLASS AGE
 
-echo "Wow you are $FNAME and you are $AGE years old!"
+echo "Wow you are $CLASS and you are $AGE years old!"
 
+# This one of the advantages of shell scripting
+# It is pretty versatile
