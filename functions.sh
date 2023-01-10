@@ -35,7 +35,7 @@ test_shadow
 
 function test_passwd(){
 echo " "
-echo "Testing for the password file"
+echo "Testing for the password file: "
 
 if [ -e /etc/passwd ];
 then
@@ -44,3 +44,6 @@ else
 	echo "It does not exist"
 fi
 }
+
+# Calling the password file test here
+test_passwd
