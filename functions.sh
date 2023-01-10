@@ -20,11 +20,13 @@ then
 else
 	echo "The file does not exist"
 fi
+test_passwd
 }
 
 # No parentheses when calling it
 # You can only call a function after declaring it
-test_shadow
+# I commented out this as it won't run the test_passwd function as it has not seen it yet
+# test_shadow
 
 # The second way
 # function1(){}
@@ -45,5 +47,6 @@ else
 fi
 }
 
-# Calling the password file test here
-test_passwd
+# I put the test_passwd function inside the test_shadow function but it will execute both here
+# as it is done reading the whole code
+test_shadow
