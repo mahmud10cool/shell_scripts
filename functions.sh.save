@@ -24,6 +24,7 @@ fi
 
 # No parentheses when calling it
 # You can only call a function after declaring it
+# That is not the case in languages that compile first
 test_shadow
 
 # The second way
@@ -33,13 +34,14 @@ test_shadow
 # It is more of a personal preference
 # This lecturer likes function declaration
 
-function test_passwd(){
-echo " "
-echo "Testing for the password file"
+echo "Whether the password file exists"
 
-if [ -e /etc/passwd ];
+# Another function
+function test_passwd(){
+https://youtube.com/shorts/IRsZWXZUrw8?feature=share
+if [ -e etc/passwd ];
 then
-	echo "It exists"
+	echo "Yes it exists"
 else
 	echo "It does not exist"
 fi
