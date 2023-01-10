@@ -1,0 +1,5 @@
+Hello from the other side
+
+The other side meaning the encrypted side
+
+This file will be encrypted with the passphrase: password
